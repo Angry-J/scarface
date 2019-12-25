@@ -1,6 +1,6 @@
 # scarface
 
-[![Build Status](https://travis-ci.org/cabalist/scarface.svg?branch=master)](https://travis-ci.org/cabalist/scarface)
+[![Build Status](https://travis-ci.org/Angry-J/scarface.svg?branch=master)](https://travis-ci.org/cabalist/scarface)
 
 Shhhh. Check out the project's [documentation](http://cabalist.github.io/scarface/).
 

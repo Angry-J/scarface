@@ -1,6 +1,6 @@
 site_name: scarface
 site_description: Shhhh
-repo_url: https://github.com/cabalist/scarface
+repo_url: https://github.com/Angry-J/scarface
 site_dir: site
 copyright: Copyright &copy; 2019, <a href="https://github.com/cabalist">cabalist</a>.
 dev_addr: 0.0.0.0:8001

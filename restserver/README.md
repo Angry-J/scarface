@@ -1,6 +1,6 @@
 # scarface
 
-[![Build Status](https://travis-ci.org/cabalist/scarface.svg?branch=master)](https://travis-ci.org/cabalist/scarface)
+[![Build Status](https://travis-ci.org/Angry-J/scarface.svg?branch=master)](https://travis-ci.org/cabalist/scarface)
 [![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
 
 Shhhh. Check out the project's [documentation](http://cabalist.github.io/scarface/).
