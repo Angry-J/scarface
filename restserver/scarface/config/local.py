@@ -8,14 +8,6 @@ class Local(Common):
 
     # Testing
     INSTALLED_APPS = Common.INSTALLED_APPS
-    NOSE_ARGS = [
-        BASE_DIR,
-        '-s',
-        '--nologcapture',
-        '--with-coverage',
-        '--with-progressive',
-        '--cover-package=scarface'
-    ]
 
     # Mail
     EMAIL_HOST = 'localhost'
