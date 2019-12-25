@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 ENV PYTHONUNBUFFERED 1
 
 # Allows docker to cache installed dependencies between builds
@@ -14,4 +14,4 @@ EXPOSE 8000
 # Migrates the database, uploads staticfiles, and runs the production server
 CMD ./manage.py migrate && \
     ./manage.py collectstatic --noinput && \
-    newrelic-admin run-program gunicorn --bind 0.0.0.0:$PORT --access-logfile - scarface.wsgi:application
+    gunicorn --bind 0.0.0.0:$PORT --access-logfile - scarface.wsgi:application

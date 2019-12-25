@@ -1,7 +1,6 @@
 # scarface
 
 [![Build Status](https://travis-ci.org/cabalist/scarface.svg?branch=master)](https://travis-ci.org/cabalist/scarface)
-[![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
 
 Shhhh. Check out the project's [documentation](http://cabalist.github.io/scarface/).
 
@@ -34,7 +33,6 @@ Creating the production sever:
 
 ```
 heroku create scarface-prod --remote prod && \
-    heroku addons:create newrelic:wayne --app scarface-prod && \
     heroku addons:create heroku-postgresql:hobby-dev --app scarface-prod && \
     heroku config:set DJANGO_SECRET=`openssl rand -base64 32` \
         DJANGO_AWS_ACCESS_KEY_ID="Add your id" \
@@ -47,7 +45,6 @@ Creating the qa sever:
 
 ```
 heroku create `scarface-qa --remote qa && \
-    heroku addons:create newrelic:wayne && \
     heroku addons:create heroku-postgresql:hobby-dev && \
     heroku config:set DJANGO_SECRET=`openssl rand -base64 32` \
         DJANGO_AWS_ACCESS_KEY_ID="Add your id" \

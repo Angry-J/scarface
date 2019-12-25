@@ -32,7 +32,6 @@ Initialize the production server:
 
 ```
 heroku create scarface-prod --remote prod && \
-    heroku addons:create newrelic:wayne --app scarface-prod && \
     heroku addons:create heroku-postgresql:hobby-dev --app scarface-prod && \
     heroku config:set DJANGO_SECRET_KEY=`openssl rand -base64 32` \
         DJANGO_AWS_ACCESS_KEY_ID="Add your id" \
@@ -47,7 +46,6 @@ Initialize the qa server:
 
 ```
 heroku create scarface-qa --remote qa && \
-    heroku addons:create newrelic:wayne --app scarface-qa && \
     heroku addons:create heroku-postgresql:hobby-dev --app scarface-qa && \
     heroku config:set DJANGO_SECRET_KEY=`openssl rand -base64 32` \
         DJANGO_AWS_ACCESS_KEY_ID="Add your id" \

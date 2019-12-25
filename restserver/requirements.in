@@ -1,0 +1,24 @@
+# Core
+pytz
+Django
+django-configurations
+gunicorn
+
+# For the persistence stores
+psycopg2-binary
+dj-database-url
+
+# Model Tools
+django-model-utils
+django_unique_upload
+
+# Rest API
+djangorestframework
+Markdown
+django-filter
+
+# Static and Media Storage
+django-storages
+boto3
+
+
