@@ -7,6 +7,7 @@ flake8
 
 # Testing
 pytest
+pytest-django
 mock
 factory-boy
 coverage
