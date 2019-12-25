@@ -3,7 +3,6 @@
 # Developer Tools
 ipdb
 ipython
-mkdocs
 flake8
 
 # Testing

@@ -21,4 +21,7 @@ django-filter
 django-storages
 boto3
 
+# Documentation
+mkdocs
+
 
